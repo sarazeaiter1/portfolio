@@ -1,4 +1,10 @@
-import { Intro, EmailButton, SocialMediaButtons, ResumeButton } from './Parts'
+import {
+  Intro,
+  EmailButton,
+  SocialMediaButtons,
+  Location,
+  ResumeButton,
+} from './Parts'
 
 const Sidebar = () => {
   return (
@@ -6,6 +12,7 @@ const Sidebar = () => {
       <Intro />
       <ResumeButton />
       <SocialMediaButtons />
+      <Location />
       <EmailButton />
     </>
   )

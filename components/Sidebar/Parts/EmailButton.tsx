@@ -5,7 +5,7 @@ export const EmailButton = () => {
   return (
     <a
       href="mailto:sara.ztr@gmail.com"
-      className="flex items-center justify-center px-5 py-2 mt-5 text-white rounded-full bg-gradient-to-r from-gray-600 to-purple-900"
+      className="flex items-center justify-center px-5 py-2 my-5 mt-10 text-white rounded-full bg-gradient-to-r from-indigo-600 to-purple-600"
     >
       <FontAwesomeIcon
         icon={faEnvelope}

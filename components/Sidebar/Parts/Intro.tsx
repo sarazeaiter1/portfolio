@@ -12,11 +12,12 @@ export const Intro = () => {
         layout="intrinsic"
         quality="100"
       />
-      <h3 className="my-4 text-3xl font-medium tracking-wider">
-        <span className="text-purple-800 font-zenTokyoZoo">Sara </span>
-        Zeaiter
+      <h3 className="mt-5 text-3xl font-medium tracking-wider">
+        <span className="text-purple-600 font-zenTokyoZoo">SARA </span>Zeaiter
       </h3>
-      <p className="px-2 py-1 text-3xl font-zenLoop ">Full Stack Developer</p>
+      <p className="px-2 py-1 mt-5 text-3xl font-zenLoop ">
+        Full Stack Developer
+      </p>
     </>
   )
 }
